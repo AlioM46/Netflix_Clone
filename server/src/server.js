@@ -10,7 +10,11 @@ connectDB();
 // app.use(cors(corsOptions));
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://netflix-copy.onrender.com"],
+    origin: [
+      "http://localhost:5173",
+      "https://netflix-copy.onrender.com",
+      "https://netflix-clone-client-delta.vercel.app",
+    ],
     credentials: true,
   })
 );
