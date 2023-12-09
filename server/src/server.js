@@ -14,7 +14,6 @@ app.use(
       "http://localhost:5173",
       "https://netflix-copy.onrender.com",
       "https://netflix-clone-client-delta.vercel.app",
-      "https://netflix-clone-hn3x.onrender.com",
     ],
     credentials: true,
   })
