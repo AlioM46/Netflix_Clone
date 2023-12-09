@@ -6,9 +6,7 @@ export {default as Categories} from "./dashboard/categories/Categories.jsx";
 export {default as FavoritesMovies} from "./dashboard/favoritesMovies/FavoritesMovies.jsx";
 export {default as MoviesList} from "./dashboard/moviesList/MoviesList.jsx";
 export {default as Statistic} from "./dashboard/statistic/Statistic.jsx";
-export {default as UpdateProfile} from "./dashboard/updateProfile/updateProfile.jsx";
-export {default as UsersList} from "./dashboard/usersList/UsersList.jsx";
-
+export {default as UpdateProfile} from "./dashboard/updateProfile/UpdateProfile.jsx";
 // home
 export {default as Download} from "./home/download/Download.jsx";
 export {default as Header} from "./home/header/Header.jsx";
