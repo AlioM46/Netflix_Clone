@@ -1,0 +1,16 @@
+{
+  "name": "thirdproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "start-server": "cd server && node src/server.js",
+    "install-client": "cd MovieApp && npm install",
+    "build-client": "cd MovieApp && npm run build",
+    "start-client": "cd MovieApp && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
