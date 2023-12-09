@@ -121,7 +121,6 @@ const Nav = () => {
             Movies
           </Link>
         </li>
-
         <li>
           <Link to={"/dashboard"} style={linkStyle("/dashboard")}>
             Dashboard{" "}
@@ -142,6 +141,7 @@ const Nav = () => {
         {Object.values(userInfo).length ? (
           <div className="parentOfUserInfo">
             <button
+              className="underline "
               onClick={() => {
                 setPersist(false);
                 window.location.reload();
@@ -152,11 +152,14 @@ const Nav = () => {
             </button>
           </div>
         ) : (
-          <li>
-            <Link to={"/login"} style={linkStyle("/login")}>
-              <FaDoorClosed />
-            </Link>
-          </li>
+          <div>
+            {" "}
+            <li>
+              <Link to={"/login"} style={linkStyle("/login")}>
+                <FaDoorClosed />
+              </Link>
+            </li>
+          </div>
         )}
         <li>
           <button
