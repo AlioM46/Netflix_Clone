@@ -1,6 +1,0 @@
-{
-  "force": true,
-  "glob": false,
-  "from": "/*",
-  "to": "/index.html"
-}
