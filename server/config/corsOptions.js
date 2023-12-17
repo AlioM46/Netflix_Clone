@@ -1,5 +1,7 @@
+require("dotenv").config();
+
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: process.env.FRONT_END_URL,
   credentials: true,
 };
 

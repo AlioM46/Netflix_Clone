@@ -1,8 +1,9 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import {setToken} from "../../features/auth/authSlice";
 
+console.log();
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://netflix-clone-hn3x.onrender.com",
+  baseUrl: import.meta.env.VITE_REACT_APP_BACK_END_URL,
   credentials: "include",
   prepareHeaders: (headers, {getState}) => {
     const token = getState().auth.token;
