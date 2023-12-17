@@ -10,7 +10,11 @@ connectDB();
 // app.use(cors(corsOptions));
 app.use(
   cors({
-    origin: ["http://localhost:5173", process.env.FRONT_END_URL],
+    origin: [
+      "http://localhost:5173",
+      process.env.FRONT_END_URL,
+      "https://netflix-client-v5qd.onrender.com",
+    ],
     credentials: true,
   })
 );

@@ -1,7 +1,6 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import {setToken} from "../../features/auth/authSlice";
 
-console.log(import.meta.env.VITE_REACT_APP_BACK_END_URL);
 const baseQuery = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_REACT_APP_BACK_END_URL,
   credentials: "include",
