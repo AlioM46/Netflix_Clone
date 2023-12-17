@@ -80,7 +80,17 @@ The application should now be running locally, and you can access it in your bro
 
 ## Contributing
 
+
 We welcome contributions! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
 
 Happy Streaming! 🎬✨
+
+
+🏞️🏞 ScreenShoots:
+![image](https://i.ibb.co/sPrb5K4/Screenshot-2023-12-17-235742.png)
+
+![image](https://i.ibb.co/M7yXg6m/Screenshot-2023-12-17-235804.png)
+
+![image](https://i.ibb.co/2S9k8C0/Screenshot-2023-12-17-235846.png)
+
