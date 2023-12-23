@@ -1,3 +1,8 @@
+### Preview (  https://netflix-client-v5qd.onrender.com/   )
+
+### ** I issued some problems with deployment it would be better if you clone it on your pc **
+
+
 # Netflix Clone App
 
 Welcome to the Netflix Clone App repository! This project replicates some of the features of Netflix and is built with React for the frontend, Express and Node.js for the backend, and MongoDB as the database. User authentication, movie management, and additional features such as favorites, user editing, roles, permissions, route protection, and password change are implemented.
